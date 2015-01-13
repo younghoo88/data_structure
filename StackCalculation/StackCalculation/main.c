@@ -8,29 +8,17 @@
 //
 
 #include <stdio.h>
-#include "InfixToPostfix.h"
-#include "PostCalculator.h"
+#include "InfixCalculator.h"
 
 int main(int argc, const char * argv[]) {
   
-  //char exp1[] = "3-2+4";
+  char exp1[] = "3-2+4";
   char exp2[] = "(1+2)*3";
-  //char exp3[] = "((1-2)+3*(5-2))";
-  //printf("중위표기법 : %s \n", exp1);
-  printf("중위표기법 : %s \n", exp2);
-  //printf("중위표기법 : %s \n", exp3);
+  char exp3[] = "((1-2)+3*(5-2))";
   
-  //convToRPNExp(exp1);
-  convToRPNExp(exp2); // 중위표기법을 후위표기법으로 변환
-  //convToRPNExp(exp3);
-
-  printf("변환 완료!! \n");
-  //printf("후위표기법 : %s \n", exp1);
-  printf("후위표기법 : %s \n", exp2);
-  //printf("후위표기법 : %s \n", exp3);
-
-  printf("후위표기법으로 표현된 수식을 계산!! \n");
-  printf("계산 결과 : %d \n",   EvalRPNExp(exp2));
+  printf("1st problem : %s = %d \n", exp1, EvalInfixExp(exp1));
+  printf("2nd problem : %s = %d \n", exp2, EvalInfixExp(exp2));
+  printf("3rd problem : %s = %d \n", exp3, EvalInfixExp(exp3));
   
   return 0;
 }

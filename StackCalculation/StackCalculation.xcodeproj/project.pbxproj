@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC3C2DBB1A643DF900FB235A /* InfixToPostfix.c in Sources */ = {isa = PBXBuildFile; fileRef = EC3C2DB91A643DF900FB235A /* InfixToPostfix.c */; };
+		EC3C2DBE1A643F2900FB235A /* InfixCalculator.c in Sources */ = {isa = PBXBuildFile; fileRef = EC3C2DBC1A643F2900FB235A /* InfixCalculator.c */; };
+		EC3C2DC11A643F5B00FB235A /* PostCalculator.c in Sources */ = {isa = PBXBuildFile; fileRef = EC3C2DBF1A643F5B00FB235A /* PostCalculator.c */; };
+		ECC78ED51A606BF90068325D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = ECC78ED41A606BF90068325D /* main.c */; };
+		ECC78EDD1A6137950068325D /* CLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = ECC78EDB1A6137950068325D /* CLinkedList.c */; };
+		ECC78EE01A6137B00068325D /* ListBaseStack.c in Sources */ = {isa = PBXBuildFile; fileRef = ECC78EDE1A6137B00068325D /* ListBaseStack.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ECC78ECF1A606BF90068325D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EC3C2DB91A643DF900FB235A /* InfixToPostfix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = InfixToPostfix.c; sourceTree = "<group>"; };
+		EC3C2DBA1A643DF900FB235A /* InfixToPostfix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfixToPostfix.h; sourceTree = "<group>"; };
+		EC3C2DBC1A643F2900FB235A /* InfixCalculator.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = InfixCalculator.c; sourceTree = "<group>"; };
+		EC3C2DBD1A643F2900FB235A /* InfixCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfixCalculator.h; sourceTree = "<group>"; };
+		EC3C2DBF1A643F5B00FB235A /* PostCalculator.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PostCalculator.c; sourceTree = "<group>"; };
+		EC3C2DC01A643F5B00FB235A /* PostCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostCalculator.h; sourceTree = "<group>"; };
+		ECC78ED11A606BF90068325D /* StackCalculation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StackCalculation; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC78ED41A606BF90068325D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		ECC78EDB1A6137950068325D /* CLinkedList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CLinkedList.c; sourceTree = "<group>"; };
+		ECC78EDC1A6137950068325D /* CLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLinkedList.h; sourceTree = "<group>"; };
+		ECC78EDE1A6137B00068325D /* ListBaseStack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ListBaseStack.c; sourceTree = "<group>"; };
+		ECC78EDF1A6137B00068325D /* ListBaseStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListBaseStack.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECC78ECE1A606BF90068325D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECC78EC81A606BF90068325D = {
+			isa = PBXGroup;
+			children = (
+				ECC78ED31A606BF90068325D /* StackCalculation */,
+				ECC78ED21A606BF90068325D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECC78ED21A606BF90068325D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECC78ED11A606BF90068325D /* StackCalculation */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECC78ED31A606BF90068325D /* StackCalculation */ = {
+			isa = PBXGroup;
+			children = (
+				ECC78ED41A606BF90068325D /* main.c */,
+				ECC78EDB1A6137950068325D /* CLinkedList.c */,
+				ECC78EDC1A6137950068325D /* CLinkedList.h */,
+				ECC78EDE1A6137B00068325D /* ListBaseStack.c */,
+				ECC78EDF1A6137B00068325D /* ListBaseStack.h */,
+				EC3C2DB91A643DF900FB235A /* InfixToPostfix.c */,
+				EC3C2DBA1A643DF900FB235A /* InfixToPostfix.h */,
+				EC3C2DBC1A643F2900FB235A /* InfixCalculator.c */,
+				EC3C2DBD1A643F2900FB235A /* InfixCalculator.h */,
+				EC3C2DBF1A643F5B00FB235A /* PostCalculator.c */,
+				EC3C2DC01A643F5B00FB235A /* PostCalculator.h */,
+			);
+			path = StackCalculation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECC78ED01A606BF90068325D /* StackCalculation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECC78ED81A606BF90068325D /* Build configuration list for PBXNativeTarget "StackCalculation" */;
+			buildPhases = (
+				ECC78ECD1A606BF90068325D /* Sources */,
+				ECC78ECE1A606BF90068325D /* Frameworks */,
+				ECC78ECF1A606BF90068325D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StackCalculation;
+			productName = StackCalculation;
+			productReference = ECC78ED11A606BF90068325D /* StackCalculation */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECC78EC91A606BF90068325D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Hoo;
+				TargetAttributes = {
+					ECC78ED01A606BF90068325D = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = ECC78ECC1A606BF90068325D /* Build configuration list for PBXProject "StackCalculation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ECC78EC81A606BF90068325D;
+			productRefGroup = ECC78ED21A606BF90068325D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECC78ED01A606BF90068325D /* StackCalculation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECC78ECD1A606BF90068325D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC78EDD1A6137950068325D /* CLinkedList.c in Sources */,
+				ECC78ED51A606BF90068325D /* main.c in Sources */,
+				EC3C2DBE1A643F2900FB235A /* InfixCalculator.c in Sources */,
+				ECC78EE01A6137B00068325D /* ListBaseStack.c in Sources */,
+				EC3C2DBB1A643DF900FB235A /* InfixToPostfix.c in Sources */,
+				EC3C2DC11A643F5B00FB235A /* PostCalculator.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ECC78ED61A606BF90068325D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ECC78ED71A606BF90068325D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ECC78ED91A606BF90068325D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECC78EDA1A606BF90068325D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECC78ECC1A606BF90068325D /* Build configuration list for PBXProject "StackCalculation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC78ED61A606BF90068325D /* Debug */,
+				ECC78ED71A606BF90068325D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECC78ED81A606BF90068325D /* Build configuration list for PBXNativeTarget "StackCalculation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC78ED91A606BF90068325D /* Debug */,
+				ECC78EDA1A606BF90068325D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECC78EC91A606BF90068325D /* Project object */;
+}

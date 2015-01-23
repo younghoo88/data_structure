@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EC3C2DE51A658BFE00FB235A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EC3C2DE41A658BFE00FB235A /* main.c */; };
+		EC3C2DED1A658C1400FB235A /* LinkedListBasedQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = EC3C2DEB1A658C1400FB235A /* LinkedListBasedQueue.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		EC3C2DE11A658BFE00FB235A /* LinkedListQueue */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LinkedListQueue; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC3C2DE41A658BFE00FB235A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		EC3C2DEB1A658C1400FB235A /* LinkedListBasedQueue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LinkedListBasedQueue.c; sourceTree = "<group>"; };
+		EC3C2DEC1A658C1400FB235A /* LinkedListBasedQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedListBasedQueue.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				EC3C2DE41A658BFE00FB235A /* main.c */,
+				EC3C2DEB1A658C1400FB235A /* LinkedListBasedQueue.c */,
+				EC3C2DEC1A658C1400FB235A /* LinkedListBasedQueue.h */,
 			);
 			path = LinkedListQueue;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC3C2DED1A658C1400FB235A /* LinkedListBasedQueue.c in Sources */,
 				EC3C2DE51A658BFE00FB235A /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

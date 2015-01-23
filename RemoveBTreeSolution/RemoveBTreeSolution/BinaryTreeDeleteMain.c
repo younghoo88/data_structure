@@ -18,21 +18,30 @@ int main(void)
 	SetData(bt4, 4);
 	SetData(bt5, 5);
 	SetData(bt6, 6);
-
+/*
 	MakeLeftSubTree(bt1, bt2);
 	MakeRightSubTree(bt1, bt3);
 	MakeLeftSubTree(bt2, bt4);
 	MakeRightSubTree(bt2, bt5);
 	MakeRightSubTree(bt3, bt6);
-
+*/
+/*
 	PreorderTraverse(bt1, ShowIntData);
 	printf("\n");
 	InorderTraverse(bt1, ShowIntData);
 	printf("\n");
 	PostorderTraverse(bt1, ShowIntData);
 	printf("\n");
+*/
+  
+  MakeLeftSubTree(bt1, bt2);
+  MakeRightSubTree(bt1, bt3);
+  MakeLeftSubTree(bt2, bt4);
 
-	DeleteTree(bt1);
+  InorderTraverse(bt1, ShowIntData);
+  
+	DeleteTree(bt2);
+  InorderTraverse(bt1, ShowIntData);
 	return 0;
 }
 

@@ -10,5 +10,10 @@
 #define __ExpressionTree__ExpressionTree__
 
 #include <stdio.h>
+#include "ListBaseStack.h"
+#include "BTree.h"
+
+BTreeNode * MakeExpTree(char exp[]);
+int EvaluateExpTree(BTreeNode * bt);
 
 #endif /* defined(__ExpressionTree__ExpressionTree__) */

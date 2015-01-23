@@ -10,5 +10,24 @@
 #define __ExpressionTree__TreeTraverse__
 
 #include <stdio.h>
+#include "BTree.h"
+
+typedef void actionPtr(BTData data);
+
+void showData(int data);
+
+void removeData(BTreeNode * bt);
+
+void InOrderTraverse(BTreeNode * bt, actionPtr action);
+
+void PreOrderTraverse(BTreeNode * bt, actionPtr action);
+
+void PostOrderTraverse(BTreeNode * bt, actionPtr action);
+
+void ShowPrefixTypeExp(BTreeNode * bt);
+
+void ShowPostfixTypeExp(BTreeNode * bt);
+
+void ShowInfixTypeExp(BTreeNode * bt);
 
 #endif /* defined(__ExpressionTree__TreeTraverse__) */

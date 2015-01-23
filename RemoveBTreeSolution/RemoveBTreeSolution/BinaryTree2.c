@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "BinaryTree2.h"
 
-// ¹®Á¦ 08-1 °ü·Ã DeleteTree ÇÔ¼öÀÇ Á¤ÀÇ°¡ Ãß°¡µÈ ¼Ò½ºÆÄÀÏ
+// Ï€Ã†Â¡Â¶ 08-1 âˆžÂ¸âˆ‘âˆš DeleteTree Â«â€˜ÂºË†Â¿Â« Â¡Â§Â¿Â«âˆžÂ° âˆšï¬‚âˆžÂ°ÂµÂ» Âºâ€œÎ©âˆ«âˆ†Æ’Â¿Å“
 
 BTreeNode * MakeBTreeNode(void)
 {
@@ -89,4 +89,5 @@ void DeleteTree(BTreeNode * bt)
 
 	printf("del tree data: %d \n", bt->data);
 	free(bt);
+  bt = NULL;
 }

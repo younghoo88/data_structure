@@ -7,9 +7,37 @@
 //
 
 #include <stdio.h>
+#include "BTree.h"
+
+void postOrderTraverse(BTreeNode *bt) {
+  if (bt == NULL) {
+    return;
+  }
+  
+  postOrderTraverse(bt->left);
+  postOrderTraverse(bt->right);
+  printf("%d \n", bt->data);
+}
 
 int main(int argc, const char * argv[]) {
-  // insert code here...
-  printf("Hello, World!\n");
-    return 0;
+  // BTreeNode 생성
+  BTreeNode * bt1 = MakeBTreeNode();
+  BTreeNode * bt2 = MakeBTreeNode();
+  BTreeNode * bt3 = MakeBTreeNode();
+  BTreeNode * bt4 = MakeBTreeNode();
+  
+  // 데이터 입력
+  SetData(bt1, 1);
+  SetData(bt2, 2);
+  SetData(bt3, 3);
+  SetData(bt4, 4);
+  
+  // BTreeNode 연결
+  MakeLeftSubTree(bt1, bt2);
+  MakeRightSubTree(bt1, bt3);
+  MakeLeftSubTree(bt2, bt4);
+  
+  postOrderTraverse(bt1);
+  
+  return 0;
 }

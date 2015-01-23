@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EC59EF071A6E2CEB000FFEB4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EC59EF061A6E2CEB000FFEB4 /* main.c */; };
+		EC59EF0F1A6E2CF6000FFEB4 /* BTree.c in Sources */ = {isa = PBXBuildFile; fileRef = EC59EF0D1A6E2CF6000FFEB4 /* BTree.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		EC59EF031A6E2CEB000FFEB4 /* BTreeTraverseWithAction */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BTreeTraverseWithAction; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC59EF061A6E2CEB000FFEB4 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		EC59EF0D1A6E2CF6000FFEB4 /* BTree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BTree.c; sourceTree = "<group>"; };
+		EC59EF0E1A6E2CF6000FFEB4 /* BTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTree.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				EC59EF061A6E2CEB000FFEB4 /* main.c */,
+				EC59EF0D1A6E2CF6000FFEB4 /* BTree.c */,
+				EC59EF0E1A6E2CF6000FFEB4 /* BTree.h */,
 			);
 			path = BTreeTraverseWithAction;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC59EF0F1A6E2CF6000FFEB4 /* BTree.c in Sources */,
 				EC59EF071A6E2CEB000FFEB4 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

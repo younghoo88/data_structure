@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		EC59EF351A6E4B10000FFEB4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EC59EF341A6E4B10000FFEB4 /* main.c */; };
+		EC59EF3F1A6E4B1D000FFEB4 /* CLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = EC59EF3B1A6E4B1D000FFEB4 /* CLinkedList.c */; };
+		EC59EF401A6E4B1D000FFEB4 /* ListBaseStack.c in Sources */ = {isa = PBXBuildFile; fileRef = EC59EF3C1A6E4B1D000FFEB4 /* ListBaseStack.c */; };
+		EC59EF431A6E4B3A000FFEB4 /* ExpressionTree.c in Sources */ = {isa = PBXBuildFile; fileRef = EC59EF411A6E4B3A000FFEB4 /* ExpressionTree.c */; };
+		EC59EF461A6E4B70000FFEB4 /* BTree.c in Sources */ = {isa = PBXBuildFile; fileRef = EC59EF441A6E4B70000FFEB4 /* BTree.c */; };
+		EC59EF491A6E71E1000FFEB4 /* InfixToPostfix.c in Sources */ = {isa = PBXBuildFile; fileRef = EC59EF471A6E71E1000FFEB4 /* InfixToPostfix.c */; };
+		EC59EF4C1A6E732F000FFEB4 /* TreeTraverse.c in Sources */ = {isa = PBXBuildFile; fileRef = EC59EF4A1A6E732F000FFEB4 /* TreeTraverse.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,18 @@
 /* Begin PBXFileReference section */
 		EC59EF311A6E4B10000FFEB4 /* ExpressionTree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ExpressionTree; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC59EF341A6E4B10000FFEB4 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		EC59EF3B1A6E4B1D000FFEB4 /* CLinkedList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CLinkedList.c; sourceTree = "<group>"; };
+		EC59EF3C1A6E4B1D000FFEB4 /* ListBaseStack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ListBaseStack.c; sourceTree = "<group>"; };
+		EC59EF3D1A6E4B1D000FFEB4 /* ListBaseStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListBaseStack.h; sourceTree = "<group>"; };
+		EC59EF3E1A6E4B1D000FFEB4 /* CLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLinkedList.h; sourceTree = "<group>"; };
+		EC59EF411A6E4B3A000FFEB4 /* ExpressionTree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ExpressionTree.c; sourceTree = "<group>"; };
+		EC59EF421A6E4B3A000FFEB4 /* ExpressionTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpressionTree.h; sourceTree = "<group>"; };
+		EC59EF441A6E4B70000FFEB4 /* BTree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BTree.c; sourceTree = "<group>"; };
+		EC59EF451A6E4B70000FFEB4 /* BTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTree.h; sourceTree = "<group>"; };
+		EC59EF471A6E71E1000FFEB4 /* InfixToPostfix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = InfixToPostfix.c; sourceTree = "<group>"; };
+		EC59EF481A6E71E1000FFEB4 /* InfixToPostfix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfixToPostfix.h; sourceTree = "<group>"; };
+		EC59EF4A1A6E732F000FFEB4 /* TreeTraverse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TreeTraverse.c; sourceTree = "<group>"; };
+		EC59EF4B1A6E732F000FFEB4 /* TreeTraverse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeTraverse.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,18 @@
 			isa = PBXGroup;
 			children = (
 				EC59EF341A6E4B10000FFEB4 /* main.c */,
+				EC59EF411A6E4B3A000FFEB4 /* ExpressionTree.c */,
+				EC59EF421A6E4B3A000FFEB4 /* ExpressionTree.h */,
+				EC59EF4A1A6E732F000FFEB4 /* TreeTraverse.c */,
+				EC59EF4B1A6E732F000FFEB4 /* TreeTraverse.h */,
+				EC59EF3B1A6E4B1D000FFEB4 /* CLinkedList.c */,
+				EC59EF3C1A6E4B1D000FFEB4 /* ListBaseStack.c */,
+				EC59EF3D1A6E4B1D000FFEB4 /* ListBaseStack.h */,
+				EC59EF3E1A6E4B1D000FFEB4 /* CLinkedList.h */,
+				EC59EF441A6E4B70000FFEB4 /* BTree.c */,
+				EC59EF451A6E4B70000FFEB4 /* BTree.h */,
+				EC59EF471A6E71E1000FFEB4 /* InfixToPostfix.c */,
+				EC59EF481A6E71E1000FFEB4 /* InfixToPostfix.h */,
 			);
 			path = ExpressionTree;
 			sourceTree = "<group>";
@@ -118,7 +148,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC59EF3F1A6E4B1D000FFEB4 /* CLinkedList.c in Sources */,
+				EC59EF491A6E71E1000FFEB4 /* InfixToPostfix.c in Sources */,
+				EC59EF461A6E4B70000FFEB4 /* BTree.c in Sources */,
+				EC59EF431A6E4B3A000FFEB4 /* ExpressionTree.c in Sources */,
 				EC59EF351A6E4B10000FFEB4 /* main.c in Sources */,
+				EC59EF4C1A6E732F000FFEB4 /* TreeTraverse.c in Sources */,
+				EC59EF401A6E4B1D000FFEB4 /* ListBaseStack.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

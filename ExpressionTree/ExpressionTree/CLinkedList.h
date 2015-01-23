@@ -10,11 +10,13 @@
 #define __StackUsingLinkedList__CLinkedList__
 
 #include <stdio.h>
+#include "BTree.h"
 
 #define TRUE 1
 #define FALSE 0
 
-typedef int Data;
+//typedef int Data;
+typedef BTreeNode * Data;
 
 typedef struct _node {
   Data data;

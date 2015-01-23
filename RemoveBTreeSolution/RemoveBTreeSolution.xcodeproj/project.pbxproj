@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC59EF1D1A6E3654000FFEB4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = EC59EF1C1A6E3654000FFEB4 /* main.c */; };
+		EC59EF261A6E3666000FFEB4 /* BinaryTree2.c in Sources */ = {isa = PBXBuildFile; fileRef = EC59EF231A6E3666000FFEB4 /* BinaryTree2.c */; };
+		EC59EF271A6E3666000FFEB4 /* BinaryTreeDeleteMain.c in Sources */ = {isa = PBXBuildFile; fileRef = EC59EF251A6E3666000FFEB4 /* BinaryTreeDeleteMain.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		EC59EF191A6E3654000FFEB4 /* RemoveBTreeSolution */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RemoveBTreeSolution; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC59EF1C1A6E3654000FFEB4 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		EC59EF231A6E3666000FFEB4 /* BinaryTree2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BinaryTree2.c; sourceTree = "<group>"; };
+		EC59EF241A6E3666000FFEB4 /* BinaryTree2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryTree2.h; sourceTree = "<group>"; };
+		EC59EF251A6E3666000FFEB4 /* BinaryTreeDeleteMain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BinaryTreeDeleteMain.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		EC59EF1B1A6E3654000FFEB4 /* RemoveBTreeSolution */ = {
 			isa = PBXGroup;
 			children = (
-				EC59EF1C1A6E3654000FFEB4 /* main.c */,
+				EC59EF231A6E3666000FFEB4 /* BinaryTree2.c */,
+				EC59EF241A6E3666000FFEB4 /* BinaryTree2.h */,
+				EC59EF251A6E3666000FFEB4 /* BinaryTreeDeleteMain.c */,
 			);
 			path = RemoveBTreeSolution;
 			sourceTree = "<group>";
@@ -118,7 +123,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC59EF1D1A6E3654000FFEB4 /* main.c in Sources */,
+				EC59EF261A6E3666000FFEB4 /* BinaryTree2.c in Sources */,
+				EC59EF271A6E3666000FFEB4 /* BinaryTreeDeleteMain.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,11 +11,12 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include "HashFunc_Chaining.h"
 
 #define TRUE  1
 #define FALSE 0
 
-typedef int LData;
+// typedef int LData;
 
 typedef struct _node {
   LData data;

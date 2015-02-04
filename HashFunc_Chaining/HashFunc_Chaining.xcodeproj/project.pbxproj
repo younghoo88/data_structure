@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		ECBC8CD61A80B3CB00D4EDEA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = ECBC8CD51A80B3CB00D4EDEA /* main.c */; };
+		ECBC8CDE1A80B3DC00D4EDEA /* HashFunc_Chaining.c in Sources */ = {isa = PBXBuildFile; fileRef = ECBC8CDC1A80B3DC00D4EDEA /* HashFunc_Chaining.c */; };
+		ECBC8CE11A80B5E300D4EDEA /* DLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = ECBC8CDF1A80B5E300D4EDEA /* DLinkedList.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		ECBC8CD21A80B3CB00D4EDEA /* HashFunc_Chaining */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HashFunc_Chaining; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECBC8CD51A80B3CB00D4EDEA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		ECBC8CDC1A80B3DC00D4EDEA /* HashFunc_Chaining.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HashFunc_Chaining.c; sourceTree = "<group>"; };
+		ECBC8CDD1A80B3DC00D4EDEA /* HashFunc_Chaining.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HashFunc_Chaining.h; sourceTree = "<group>"; };
+		ECBC8CDF1A80B5E300D4EDEA /* DLinkedList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = DLinkedList.c; sourceTree = "<group>"; };
+		ECBC8CE01A80B5E300D4EDEA /* DLinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLinkedList.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				ECBC8CD51A80B3CB00D4EDEA /* main.c */,
+				ECBC8CDC1A80B3DC00D4EDEA /* HashFunc_Chaining.c */,
+				ECBC8CDD1A80B3DC00D4EDEA /* HashFunc_Chaining.h */,
+				ECBC8CDF1A80B5E300D4EDEA /* DLinkedList.c */,
+				ECBC8CE01A80B5E300D4EDEA /* DLinkedList.h */,
 			);
 			path = HashFunc_Chaining;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECBC8CE11A80B5E300D4EDEA /* DLinkedList.c in Sources */,
+				ECBC8CDE1A80B3DC00D4EDEA /* HashFunc_Chaining.c in Sources */,
 				ECBC8CD61A80B3CB00D4EDEA /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

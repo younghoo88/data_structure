@@ -7,9 +7,11 @@
 //
 
 #include <stdio.h>
+#include "HashFunc_Chaining.h"
 
 int main(int argc, const char * argv[]) {
-  // insert code here...
-  printf("Hello, World!\n");
-    return 0;
+  int i;
+  Node arr[ARRLEN];
+  
+  return 0;
 }

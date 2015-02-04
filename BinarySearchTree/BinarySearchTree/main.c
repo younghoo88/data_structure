@@ -7,9 +7,35 @@
 //
 
 #include <stdio.h>
+#include "BinarySearchTree.h"
 
 int main(int argc, const char * argv[]) {
-  // insert code here...
-  printf("Hello, World!\n");
-    return 0;
+  BTreeNode * bstRoot;
+  BTreeNode * sNode; // search node
+  
+  BSTMakeAndInit(&bstRoot);
+  
+  BSTInsert(&bstRoot, 9);
+  BSTInsert(&bstRoot, 1);
+  BSTInsert(&bstRoot, 6);
+  BSTInsert(&bstRoot, 2);
+  BSTInsert(&bstRoot, 8);
+  BSTInsert(&bstRoot, 3);
+  BSTInsert(&bstRoot, 5);
+  
+  sNode = BSTSearch(bstRoot, 1);
+  if (sNode == NULL) {
+    printf("탐색 실패!!\n");
+  } else {
+    printf("탐색에 성공한 키의 값 : %d \n", BSTGetNodeData(sNode));
+  }
+  
+  sNode = BSTSearch(bstRoot, 10);
+  if (sNode == NULL) {
+    printf("탐색 실패!!\n");
+  } else {
+    printf("탐색에 성공한 키의 값 : %d \n", BSTGetNodeData(sNode));
+  }
+  
+  return 0;
 }

@@ -10,5 +10,11 @@
 #define __AVLTree__BTreeTraverse__
 
 #include <stdio.h>
+#include "BTree.h"
+
+void BTreeInfixTraverse(BTreeNode * btNode);
+void BTreePrefixTraverse(BTreeNode * btNode);
+void BTreePostfixTreverse(BTreeNode * btNode);
+
 
 #endif /* defined(__AVLTree__BTreeTraverse__) */

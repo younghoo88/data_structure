@@ -28,4 +28,9 @@ BTreeNode * GetRightSubTree(BTreeNode *bt);
 void MakeLeftSubTree(BTreeNode * main, BTreeNode * sub);
 void MakeRightSubTree(BTreeNode * main, BTreeNode * sub);
 
+BTreeNode * RemoveLeftSubTree(BTreeNode * bt);
+BTreeNode * RemoveRightSubTree(BTreeNode * bt);
+void ChangeLeftSubTree(BTreeNode * main, BTreeNode * sub);
+void ChangeRightSubTree(BTreeNode * main, BTreeNode * sub);
+
 #endif /* defined(__BTree__BTree__) */

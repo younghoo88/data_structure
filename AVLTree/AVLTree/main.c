@@ -7,9 +7,21 @@
 //
 
 #include <stdio.h>
+#include "BinarySearchTree.h"
+#include "BTreeTraverse.h"
 
 int main(int argc, const char * argv[]) {
-  // insert code here...
-  printf("Hello, World!\n");
-    return 0;
+  BTreeNode * btNode;
+  btNode = MakeBTreeNode();
+  BSTMakeAndInit(&btNode);
+  
+  BSTInsert(&btNode, 1);
+  BSTInsert(&btNode, 5);
+  BSTInsert(&btNode, 10);
+  BSTInsert(&btNode, 2);
+  BSTInsert(&btNode, 3);
+  
+  BTreeInfixTraverse(btNode);
+  
+  return 0;
 }

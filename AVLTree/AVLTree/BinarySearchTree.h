@@ -26,4 +26,10 @@ void BSTInsert(BTreeNode ** pRoot, BSTData data);
 // BST를 대상으로 데이터 탐색
 BTreeNode * BSTSearch(BTreeNode * bst, BSTData target);
 
+// BST를 대상으로 데이터 삭제
+BTreeNode * BSTRemove(BTreeNode ** pRoot, BSTData target);
+
+// BST에 저장된 모든 노드의 데이터를 출력한다.
+void BSTShowAll(BTreeNode * bst);
+
 #endif /* defined(__BinarySearchTree__BinarySearchTree__) */

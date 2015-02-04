@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		ECBC8CEF1A80C36500D4EDEA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = ECBC8CEE1A80C36500D4EDEA /* main.c */; };
+		ECBC8CF91A80C37200D4EDEA /* BinarySearchTree.c in Sources */ = {isa = PBXBuildFile; fileRef = ECBC8CF51A80C37200D4EDEA /* BinarySearchTree.c */; };
+		ECBC8CFA1A80C37200D4EDEA /* BTree.c in Sources */ = {isa = PBXBuildFile; fileRef = ECBC8CF71A80C37200D4EDEA /* BTree.c */; };
+		ECBC8CFD1A80C48300D4EDEA /* BTreeTraverse.c in Sources */ = {isa = PBXBuildFile; fileRef = ECBC8CFB1A80C48300D4EDEA /* BTreeTraverse.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		ECBC8CEB1A80C36500D4EDEA /* AVLTree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AVLTree; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECBC8CEE1A80C36500D4EDEA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		ECBC8CF51A80C37200D4EDEA /* BinarySearchTree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BinarySearchTree.c; sourceTree = "<group>"; };
+		ECBC8CF61A80C37200D4EDEA /* BinarySearchTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinarySearchTree.h; sourceTree = "<group>"; };
+		ECBC8CF71A80C37200D4EDEA /* BTree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BTree.c; sourceTree = "<group>"; };
+		ECBC8CF81A80C37200D4EDEA /* BTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTree.h; sourceTree = "<group>"; };
+		ECBC8CFB1A80C48300D4EDEA /* BTreeTraverse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BTreeTraverse.c; sourceTree = "<group>"; };
+		ECBC8CFC1A80C48300D4EDEA /* BTreeTraverse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTreeTraverse.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				ECBC8CEE1A80C36500D4EDEA /* main.c */,
+				ECBC8CFB1A80C48300D4EDEA /* BTreeTraverse.c */,
+				ECBC8CFC1A80C48300D4EDEA /* BTreeTraverse.h */,
+				ECBC8CF51A80C37200D4EDEA /* BinarySearchTree.c */,
+				ECBC8CF61A80C37200D4EDEA /* BinarySearchTree.h */,
+				ECBC8CF71A80C37200D4EDEA /* BTree.c */,
+				ECBC8CF81A80C37200D4EDEA /* BTree.h */,
 			);
 			path = AVLTree;
 			sourceTree = "<group>";
@@ -118,6 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECBC8CFA1A80C37200D4EDEA /* BTree.c in Sources */,
+				ECBC8CF91A80C37200D4EDEA /* BinarySearchTree.c in Sources */,
+				ECBC8CFD1A80C48300D4EDEA /* BTreeTraverse.c in Sources */,
 				ECBC8CEF1A80C36500D4EDEA /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
